@@ -3,21 +3,19 @@
 	"EngineAssociation": "5.4",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "Heartbeat51",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "ModelingToolsEditorMode",
 			"Enabled": true,
 			"TargetAllowList": [
 				"Editor"
-			]
-		},
-		{
-			"Name": "MQTT",
-			"Enabled": true,
-			"SupportedTargetPlatforms": [
-				"Win64",
-				"Mac",
-				"Linux"
 			]
 		}
 	]
